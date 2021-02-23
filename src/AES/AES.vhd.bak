@@ -68,7 +68,7 @@ ARCHITECTURE AES_arc OF AES IS
 BEGIN
 
 	U1 : KeyExpansion PORT MAP(clk, in_val, key, val1, roundkeys);
-	U2 : AddKey PORT MAP(clk, in_val, in_data, roundkeys(1407 DOWNTO 1280), val2, state1); -- round 0
+	U2 : AddKey PORT MAP(clk, val1, in_data, roundkeys(1407 DOWNTO 1280), val2, state1); -- round 0
 	U3 : AESRound PORT MAP(clk, val2, roundkeys(1279 DOWNTO 1152), state1, val3, state2); --round 1
 	U4 : AESRound PORT MAP(clk, val3, roundkeys(1151 DOWNTO 1024), state2, val4, state3); --round 2
 	U5 : AESRound PORT MAP(clk, val4, roundkeys(1023 DOWNTO 896), state3, val5, state4); --round 3
