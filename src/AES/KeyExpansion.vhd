@@ -8,7 +8,7 @@ ENTITY KeyExpansion IS
 	PORT (
 		clk, in_val : IN STD_LOGIC;
 		key : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
-		out_val : OUT STD_LOGIC;
+		--out_val : OUT STD_LOGIC;
 		out_key : OUT STD_LOGIC_VECTOR(1407 DOWNTO 0));
 
 END ENTITY;
@@ -43,24 +43,15 @@ BEGIN
 	U9 : KeyGenerate PORT MAP(clk, val8, key8, x"1b000000", val9, key9);
 	U10 : KeyGenerate PORT MAP(clk, val9, key9, x"36000000", val10, key10);
 
-	PROCESS (clk)
-	BEGIN
-		IF (RISING_EDGE(clk)) THEN
-
-				out_key(1407 DOWNTO 1280) <= key;
-				out_key(1279 DOWNTO 1152) <= key1;
-				out_key(1151 DOWNTO 1024) <= key2;
-				out_key(1023 DOWNTO 896) <= key3;
-				out_key(895 DOWNTO 768) <= key4;
-				out_key(767 DOWNTO 640) <= key5;
-				out_key(639 DOWNTO 512) <= key6;
-				out_key(511 DOWNTO 384) <= key7;
-				out_key(383 DOWNTO 256) <= key8;
-				out_key(255 DOWNTO 128) <= key9;
-				out_key(127 DOWNTO 0) <= key10;
-
-			
-		END IF;
-
-	END PROCESS;
+	out_key(1407 DOWNTO 1280) <= key;
+	out_key(1279 DOWNTO 1152) <= key1;
+	out_key(1151 DOWNTO 1024) <= key2;
+	out_key(1023 DOWNTO 896)  <= key3;
+	out_key(895 DOWNTO 768)   <= key4;
+	out_key(767 DOWNTO 640)   <= key5;
+	out_key(639 DOWNTO 512)   <= key6;
+	out_key(511 DOWNTO 384)   <= key7;
+	out_key(383 DOWNTO 256)   <= key8;
+	out_key(255 DOWNTO 128)   <= key9;
+	out_key(127 DOWNTO 0)     <= key10;
 END ARCHITECTURE;

@@ -42,8 +42,8 @@ ARCHITECTURE AESRound_arc OF AESRound IS
 	COMPONENT AddKey IS
 		PORT (
 			clk, in_val : IN STD_LOGIC;
-			state : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
 			key : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
+			state : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
 			out_val : OUT STD_LOGIC;
 			out_state : OUT STD_LOGIC_VECTOR(127 DOWNTO 0));
 	END COMPONENT AddKey;
@@ -52,10 +52,10 @@ ARCHITECTURE AESRound_arc OF AESRound IS
 	SIGNAL val1, val2, val3, val4 : STD_LOGIC := '0';
 BEGIN
 
-	U1 : SubBytes PORT MAP(clk, in_val, in_data, val1, state1);
-	U2 : ShiftRows PORT MAP(clk, val1, state1, val2, state2);
+	U1 : SubBytes   PORT MAP(clk, in_val, in_data, val1, state1);
+	U2 : ShiftRows  PORT MAP(clk, val1, state1, val2, state2);
 	U3 : MixColumns PORT MAP(clk, val2, state2, val3, state3);
-	U4 : AddKey PORT MAP(clk, val3, state3, key, val4, state4);
+	U4 : AddKey     PORT MAP(clk, val3, key, state3,  val4, state4);
 
 	PROCESS (clk)
 	BEGIN

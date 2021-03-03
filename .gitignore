@@ -3,3 +3,4 @@
 .ionide
 .venv
 .vscode
+*.bak

@@ -14,7 +14,7 @@ END ENTITY;
 
 ARCHITECTURE ShiftRows_arch OF ShiftRows IS
 	SIGNAL output : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	SIGNAL val1 : STD_LOGIC := '0';
+
 BEGIN
 
 	--Shifting 1st row
@@ -34,6 +34,7 @@ BEGIN
 	output(79 DOWNTO 72) <= input(15 DOWNTO 8);
 	output(47 DOWNTO 40) <= input(111 DOWNTO 104);
 	output(15 DOWNTO 8) <= input(79 DOWNTO 72);
+
 	--Shifting 4th row
 	output(103 DOWNTO 96) <= input(7 DOWNTO 0);
 	output(71 DOWNTO 64) <= input(103 DOWNTO 96);
@@ -44,12 +45,8 @@ BEGIN
 	BEGIN
 		IF rising_edge(clk) THEN
 			IF (in_val = '1') THEN
-				val1 <= '1';
-			END IF;
-			IF (val1 = '1') THEN
 				out_state <= output;
 				out_val <= '1';
-				val1 <= '0';
 			ELSE
 				out_val <= '0';
 			END IF;

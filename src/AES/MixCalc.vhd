@@ -51,9 +51,6 @@ BEGIN
 	BEGIN
 		IF rising_edge(clk) THEN
 			IF (in_val = '1') THEN
-				val1 <= '1';
-			END IF;
-			IF (in_val = '1') THEN
 				out_state <= newState;
 				out_val <= '1';
 			ELSE
