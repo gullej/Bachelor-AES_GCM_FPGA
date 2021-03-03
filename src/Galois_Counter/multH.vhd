@@ -29,19 +29,19 @@ BEGIN
 				V_v := Y;
 				Z_v := (others => '0');
 
-				loopy : FOR i IN 0 TO 127 LOOP
+				looper : FOR i IN 0 TO 127 LOOP
 					IF (X(i) = '0') THEN
 						Z_v := Z_v;
 					ELSE
 						Z_v := Z_v xor V_v;
 					END IF;
 
-					IF (V_v(0) = '0') THEN
+					IF (V_v(127) = '0') THEN
 						V_v :=  V_v(126 downto 0) & '0';
 					ELSE
 						V_v := (V_v(126 downto 0) & '0') xor R;
 					END IF;
-				END LOOP loopy;
+				END LOOP looper;
 				
 				out_product <= Z_v;
 				out_val <= '1';
