@@ -57,7 +57,6 @@ BEGIN
 				out_val <= '0';
 			END IF;
 		END IF;
-
 	END PROCESS;
 
 END;
