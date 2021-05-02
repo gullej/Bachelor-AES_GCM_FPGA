@@ -10,6 +10,17 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity SubBytesWord
 -- Compiling architecture SubBytesWord_arc of SubBytesWord
 
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MixCalc
+-- Compiling architecture rtl of MixCalc
+
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AES.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AES.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
@@ -21,17 +32,6 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity AES
 -- Compiling architecture AES_arc of AES
-
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity MixCalc
--- Compiling architecture rtl of MixCalc
 
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015

@@ -21,9 +21,9 @@ VSbh;HYE@6^S;:=IgPYj750
 !s100 LcoFF:@Dzd<3JA9<GFi[_1
 Z6 OV;C;10.4b;61
 32
-Z7 !s110 1617790493
+Z7 !s110 1619013192
 !i10b 1
-Z8 !s108 1617790493.000000
+Z8 !s108 1619013192.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AddKey.vhd|
 Z10 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AddKey.vhd|
 !i113 1
@@ -64,11 +64,11 @@ VCBeFKGBM=c@O811@d0nVX1
 !s100 4kQ@a=X3Qf[ZBnJImnkP<3
 R6
 32
-R7
+Z20 !s110 1619013193
 !i10b 1
 R8
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AES.vhd|
-Z21 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AES.vhd|
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AES.vhd|
+Z22 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AES.vhd|
 !i113 1
 R11
 R12
@@ -86,16 +86,16 @@ VQAdMQe7=oi^FBjV_HfBNU2
 !s100 [bC8Sh^dZh4Z<D0>Nd2Lz2
 R6
 32
-R7
+R20
 !i10b 1
 R8
-R20
 R21
+R22
 !i113 1
 R11
 R12
 Eaesround
-Z22 w1614341570
+Z23 w1614341570
 R14
 R15
 R16
@@ -103,19 +103,19 @@ R2
 R1
 R17
 R3
-Z23 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd
-Z24 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd
+Z24 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd
+Z25 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd
 l0
 L7
 VZhnB_1W>OzE74mLiL?a9D3
 !s100 ?aonXh6QJd4hJ8:_`HD^d1
 R6
 32
-Z25 !s110 1617790494
+R20
 !i10b 1
-R8
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd|
-Z27 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd|
+Z26 !s108 1619013193.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd|
+Z28 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd|
 !i113 1
 R11
 R12
@@ -133,16 +133,16 @@ Vln_78^AL=6MS4g`>2GeI02
 !s100 2B3GnBD_khW7KD4I6AE9M3
 R6
 32
-R25
+R20
 !i10b 1
-R8
 R26
 R27
+R28
 !i113 1
 R11
 R12
 Eeffmastrovito
-Z28 w1617790645
+Z29 w1617874037
 R14
 R15
 R16
@@ -150,19 +150,19 @@ R2
 R1
 R17
 R3
-Z29 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd
-Z30 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd
+Z30 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd
+Z31 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd
 l0
 L7
-V;fWTULII>:B4V@1koo<kM1
-!s100 NOXMe:N5NP1gUbb4`@=;d2
+VS^Y6NIcdXe:8>4Ul4SN=H2
+!s100 3ZG;F1n]PB>fk9<0M`JfF3
 R6
 32
-!s110 1617790652
+!s110 1618554829
 !i10b 1
-Z31 !s108 1617790652.000000
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd|
-Z33 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd|
+Z32 !s108 1618554829.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd|
+Z34 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/effMastrovito.vhd|
 !i113 1
 R11
 R12
@@ -173,23 +173,23 @@ R16
 R2
 R1
 R17
-DEx4 work 13 effmastrovito 0 22 ;fWTULII>:B4V@1koo<kM1
+DEx4 work 13 effmastrovito 0 22 S^Y6NIcdXe:8>4Ul4SN=H2
 l21
 L17
-VI[cK:JjR?nfi`P8J7mO5L2
-!s100 CF@DYC:^U@9C1knYgoWFj2
+VGCRUeo@N8`n9EI1R4Z1AC2
+!s100 Q34id;i^nIh:n?1GiU6Tg1
 R6
 32
-!s110 1617790654
+!s110 1618554830
 !i10b 1
-R31
 R32
 R33
+R34
 !i113 1
 R11
 R12
 Eghash
-Z34 w1615897708
+Z35 w1615897708
 R14
 R15
 R16
@@ -197,8 +197,8 @@ R2
 R1
 R17
 R3
-Z35 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd
-Z36 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd
+Z36 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd
+Z37 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd
 l0
 L8
 VDM@cWMI[CHX99oVTBA19c0
@@ -208,8 +208,8 @@ R6
 R7
 !i10b 1
 R8
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd|
-Z38 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd|
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd|
+Z39 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd|
 !i113 1
 R11
 R12
@@ -230,13 +230,13 @@ R6
 R7
 !i10b 1
 R8
-R37
 R38
+R39
 !i113 1
 R11
 R12
 Ekeyexpansion
-Z39 w1614166774
+Z40 w1614166774
 R14
 R15
 R16
@@ -244,17 +244,17 @@ R2
 R1
 R17
 R3
-Z40 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd
-Z41 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd
+Z41 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd
+Z42 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd
 l0
 L7
 VW[`;^o35zWFN?dcn3o^H]3
 !s100 7U<gO_M_TS7HV<@HL09Le3
 R6
 32
-R25
+R20
 !i10b 1
-Z42 !s108 1617790494.000000
+R26
 Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd|
 Z44 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd|
 !i113 1
@@ -274,9 +274,9 @@ V_kf94<S>?Dl5W9<5=g;VJ0
 !s100 X?]9e?QMNz8[L>^LLW`6E2
 R6
 32
-R25
+R20
 !i10b 1
-R42
+R26
 R43
 R44
 !i113 1
@@ -299,9 +299,9 @@ VI6>@h<1FO>@>Fan2A]GQJ3
 !s100 8O^haoimfLo0;=PiJ7^:o0
 R6
 32
-R25
+R20
 !i10b 1
-R42
+R26
 Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyGenerate.vhd|
 Z49 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyGenerate.vhd|
 !i113 1
@@ -321,35 +321,129 @@ V>m^feCjQeYGg=R9DEGD0_3
 !s100 38TWL<afzmD71XZ7R;^kO0
 R6
 32
-R25
+R20
 !i10b 1
-R42
+R26
 R48
 R49
 !i113 1
 R11
 R12
+Eloopmult
+Z50 w1619008338
+R14
+R15
+R16
+R2
+R1
+R17
+R3
+Z51 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd
+Z52 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd
+l0
+L7
+V=LeikV3h?mDC21_X5TQ<h3
+!s100 meDBH[;^D4DkG2m4>NClY3
+R6
+32
+Z53 !s110 1619013194
+!i10b 1
+Z54 !s108 1619013194.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd|
+Z56 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd|
+!i113 1
+R11
+R12
+Aloopmult_arc
+R14
+R15
+R16
+R2
+R1
+R17
+DEx4 work 8 loopmult 0 22 =LeikV3h?mDC21_X5TQ<h3
+l22
+L17
+ViT7IVnOYE84WAc?_dbToe3
+!s100 _<G[DX7Jg?@mEiU19NLT_3
+R6
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R11
+R12
+Emastrovito
+Z57 w1619017865
+R14
+R15
+R16
+R2
+R1
+R17
+R3
+Z58 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd
+Z59 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd
+l0
+L7
+VXkYYEn>S@Y_CVZ5B2H^5;3
+!s100 _a@Om81f?3Ee1911GD_DU0
+R6
+32
+!s110 1619017875
+!i10b 1
+Z60 !s108 1619017874.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd|
+Z62 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd|
+!i113 1
+R11
+R12
+Amastrovito_arc
+R14
+R15
+R16
+R2
+R1
+R17
+Z63 DEx4 work 10 mastrovito 0 22 XkYYEn>S@Y_CVZ5B2H^5;3
+l21
+L17
+V@@7PJoHlmWJSV^A_fKM8n2
+!s100 l:fL81ZQ@`A?knYlcJV7P0
+R6
+32
+!s110 1619017876
+!i10b 1
+R60
+R61
+R62
+!i113 1
+R11
+R12
 Emixcalc
-Z50 w1617456100
+Z64 w1617456100
 R14
 R15
 R16
 R1
 R2
 R3
-Z51 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd
-Z52 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd
+Z65 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd
+Z66 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd
 l0
 L6
 VSEnP=XdSih2>BQ^f:J@6Z2
 !s100 c4O:4l?4Q;1ET8@]XFh7f2
 R6
 32
-R25
+R20
 !i10b 1
-R42
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd|
-Z54 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd|
+R26
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd|
+Z68 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixCalc.vhd|
 !i113 1
 R11
 R12
@@ -366,35 +460,35 @@ VP=ogFMe2Ha:cMJHD9cD[R1
 !s100 _z4T>OmYRNdMVg;aVl;i00
 R6
 32
-R25
+R20
 !i10b 1
-R42
-R53
-R54
+R26
+R67
+R68
 !i113 1
 R11
 R12
 Emixcolumns
-Z55 w1614341584
+Z69 w1614341584
 R14
 R15
 R16
 R1
 R2
 R3
-Z56 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd
-Z57 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd
+Z70 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd
+Z71 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd
 l0
 L6
 Vbh<iPHb5Iz6JS66B<GVjm0
 !s100 =d`<Rz`Q>WiKSfi@_GGAH2
 R6
 32
-R25
+R20
 !i10b 1
-R42
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd|
-Z59 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd|
+R26
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd|
+Z73 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd|
 !i113 1
 R11
 R12
@@ -411,16 +505,16 @@ VLRi7XChQ?2XSGf1KkGfb@2
 !s100 a8@TOC<VPhJH30W:aKC;h2
 R6
 32
-R25
+R20
 !i10b 1
-R42
-R58
-R59
+R26
+R72
+R73
 !i113 1
 R11
 R12
 Emulth
-Z60 w1614784960
+Z74 w1614784960
 R14
 R15
 R16
@@ -428,19 +522,19 @@ R2
 R1
 R17
 R3
-Z61 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd
-Z62 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd
+Z75 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd
+Z76 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd
 l0
 L7
 VU=?;oZA`0Z]hPNlPA@lP82
 !s100 IhH_9U6K`mX8PCzaC0ijL1
 R6
 32
-R7
+Z77 !s110 1617790493
 !i10b 1
-R8
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd|
-Z64 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd|
+Z78 !s108 1617790493.000000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd|
+Z80 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/multH.vhd|
 !i113 1
 R11
 R12
@@ -458,35 +552,35 @@ VZ@TP0Uec[Mn1I`<i]?S8b0
 !s100 =LGQBgASo0`=0oD8_CPz10
 R6
 32
-R7
+R77
 !i10b 1
-R8
-R63
-R64
+R78
+R79
+R80
 !i113 1
 R11
 R12
 Eshiftrows
-Z65 w1614341560
+Z81 w1614341560
 R14
 R15
 R16
 R1
 R2
 R3
-Z66 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd
-Z67 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd
+Z82 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd
+Z83 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd
 l0
 L6
 VTGXR^YN[7];ojZC_g]WDE1
 !s100 h`kYE^2;n]L<WePD7Z7l51
 R6
 32
-R25
+R20
 !i10b 1
-R42
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd|
-Z69 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd|
+R26
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd|
+Z85 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/ShiftRows.vhd|
 !i113 1
 R11
 R12
@@ -503,16 +597,16 @@ VDM3hPFGVWM6=IIi@:N;5T0
 !s100 S:2W@8je<lN>AU_0_SX=I1
 R6
 32
-R25
+R20
 !i10b 1
-R42
-R68
-R69
+R26
+R84
+R85
 !i113 1
 R11
 R12
 Esubbytes
-Z70 w1614341540
+Z86 w1614341540
 R14
 R15
 R16
@@ -520,19 +614,19 @@ R2
 R1
 R17
 R3
-Z71 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd
-Z72 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd
+Z87 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd
+Z88 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd
 l0
 L7
 VoHZ0DZjb6AH1>YnGE]HT;0
 !s100 OkXc6;g^G6fiP5;Jg6:NJ3
 R6
 32
-R25
+R20
 !i10b 1
-R42
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd|
-Z74 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd|
+R26
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd|
+Z90 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd|
 !i113 1
 R11
 R12
@@ -550,33 +644,33 @@ V_U>:manh`DQJig30VEJ<i2
 !s100 gPjkH5<fA_JJ?WXo59WF>2
 R6
 32
-R25
+R20
 !i10b 1
-R42
-R73
-R74
+R26
+R89
+R90
 !i113 1
 R11
 R12
 Esubbytesrom
-Z75 w1614340445
+Z91 w1614340445
 R16
 R1
 R2
 R3
-Z76 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd
-Z77 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd
+Z92 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd
+Z93 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd
 l0
 L5
 Va8A<0ZNFSNh=Q=4n975A13
 !s100 7olDUF[cELGKTbRz^MRBl1
 R6
 32
-Z78 !s110 1617790495
+R20
 !i10b 1
-R42
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd|
-Z80 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd|
+R26
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd|
+Z95 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd|
 !i113 1
 R11
 R12
@@ -591,16 +685,16 @@ VjdLKnS7FiV6egzB99U7@h1
 !s100 O7mYJ]EU;QC2LiaiX`7HT0
 R6
 32
-R78
+R20
 !i10b 1
-R42
-R79
-R80
+R26
+R94
+R95
 !i113 1
 R11
 R12
 Esubbytesword
-Z81 w1611151873
+Z96 w1611151873
 R14
 R15
 R16
@@ -608,19 +702,19 @@ R2
 R1
 R17
 R3
-Z82 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd
-Z83 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd
+Z97 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd
+Z98 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd
 l0
 L7
 VC66R?W`MgJ^UY`]Io1;:41
 !s100 :_E9EX4NMEe@YDRM27B`Q0
 R6
 32
-R78
+R20
 !i10b 1
-Z84 !s108 1617790495.000000
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd|
-Z86 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd|
+R26
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd|
+Z100 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd|
 !i113 1
 R11
 R12
@@ -638,16 +732,16 @@ ViPkzH6J<0bO0BNc>il;Qa2
 !s100 b5[C?doO5i97Xi0eZj9LO3
 R6
 32
-R78
+R20
 !i10b 1
-R84
-R85
-R86
+R26
+R99
+R100
 !i113 1
 R11
 R12
 Etb_effmastrovito
-Z87 w1617790710
+Z101 w1617790710
 R14
 R15
 R16
@@ -655,19 +749,19 @@ R2
 R17
 R1
 R3
-Z88 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd
-Z89 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd
+Z102 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd
+Z103 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd
 l0
 L10
 VhQ8e_5ASG@IV]E>QT2W>T0
 !s100 J8MC83>:^:lQ`nQe>f2k90
 R6
 32
-Z90 !s110 1617790717
+Z104 !s110 1618555469
 !i10b 1
-Z91 !s108 1617790717.000000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd|
-Z93 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd|
+Z105 !s108 1618555469.000000
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd|
+Z107 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_effMastrovito.vhd|
 !i113 1
 R11
 R12
@@ -678,23 +772,23 @@ R16
 R2
 R17
 R1
-Z94 DEx4 work 16 tb_effmastrovito 0 22 hQ8e_5ASG@IV]E>QT2W>T0
+DEx4 work 16 tb_effmastrovito 0 22 hQ8e_5ASG@IV]E>QT2W>T0
 l28
 L13
 VE5ic02>]Y0KfhIkdg`IPV2
 !s100 :[OE5[gM9V58;L8UA7@Q`1
 R6
 32
-R90
+R104
 !i10b 1
-R91
-R92
-R93
+R105
+R106
+R107
 !i113 1
 R11
 R12
 Etb_ghash
-Z95 w1615897726
+Z108 w1615897726
 R14
 R15
 R16
@@ -702,19 +796,19 @@ R2
 R17
 R1
 R3
-Z96 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd
-Z97 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd
+Z109 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd
+Z110 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd
 l0
 L10
 V>0e[lB`fNH?8TIO9AGBI72
 !s100 1SKAjTVMi>F>UJ]HMf:HH3
 R6
 32
-R78
+R53
 !i10b 1
-R84
-Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd|
-Z99 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd|
+R26
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd|
+Z112 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_GHASH.vhd|
 !i113 1
 R11
 R12
@@ -732,16 +826,16 @@ Vzcm[okXP5o_ZWi@SE0LJT1
 !s100 D[MFK[jFj[F9eSSBW1J6N2
 R6
 32
-R78
+R53
 !i10b 1
-R84
-R98
-R99
+R26
+R111
+R112
 !i113 1
 R11
 R12
-Etb_multh
-Z100 w1617790423
+Etb_mult
+Z113 w1618556598
 R14
 R15
 R16
@@ -749,19 +843,66 @@ R2
 R17
 R1
 R3
-Z101 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd
-Z102 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd
+Z114 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd
+Z115 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd
+l0
+L10
+VY<>1gfG7J0RDe8g9P[9Lf2
+!s100 nHI0D^Y6BEhQ;dM^7F=]C1
+R6
+32
+Z116 !s110 1619013196
+!i10b 1
+Z117 !s108 1619013196.000000
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd|
+Z119 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd|
+!i113 1
+R11
+R12
+Atb_mult_arc
+R14
+R15
+R16
+R2
+R17
+R1
+DEx4 work 7 tb_mult 0 22 Y<>1gfG7J0RDe8g9P[9Lf2
+l41
+L13
+VFDAC<JPVDS58db4Zi^?nc0
+!s100 3aB9Q72Omj5N[_g:NbLg<2
+R6
+32
+R116
+!i10b 1
+R117
+R118
+R119
+!i113 1
+R11
+R12
+Etb_multh
+Z120 w1618555503
+R14
+R15
+R16
+R2
+R17
+R1
+R3
+Z121 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd
+Z122 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd
 l0
 L10
 V:E6JzALM^hGcl8ZdTZSE>3
 !s100 MeimGiK<S[MWD1je:Xb403
 R6
 32
-R7
+Z123 !s110 1618555509
 !i10b 1
-R8
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd|
-Z104 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd|
+Z124 !s108 1618555509.000000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd|
+Z126 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_multH.vhd|
 !i113 1
 R11
 R12
@@ -773,17 +914,17 @@ R2
 R17
 R1
 DEx4 work 8 tb_multh 0 22 :E6JzALM^hGcl8ZdTZSE>3
-l29
+l41
 L13
-V5o@Qf`mknaA7FQzOQbRL?3
-!s100 dlk2h0hoYle;h=:EVE=1U2
+ViNQgS^4C7P[SLO:@h^zTi3
+!s100 jZK^5?_f:C^81X?XR?S=B2
 R6
 32
-R7
+R123
 !i10b 1
-R8
-R103
-R104
+R124
+R125
+R126
 !i113 1
 R11
 R12

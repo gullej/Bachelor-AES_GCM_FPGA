@@ -89,9 +89,10 @@ BEGIN
 			IF (vals(12) = '1') THEN
 				fin_val <= '1';
 				fin_state <= state13;
-			END IF;
-		ELSE
+			ELSE
 				fin_val <= '0';
+			END IF;
+
 			--END IF;
 		END IF;
 
