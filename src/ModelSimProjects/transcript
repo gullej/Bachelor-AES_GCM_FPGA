@@ -1,0 +1,22 @@
+vsim -gui work_ghash.tb_mult
+# vsim -gui work_ghash.tb_mult 
+# Start time: 14:01:44 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work_ghash.tb_mult(tb_mult_arc)
+# Loading work_ghash.loopmult(loopmult_arc)
+# Loading work_ghash.mastrovito(mastrovito_arc)
+add wave -position insertpoint  \
+sim:/tb_mult/clk \
+sim:/tb_mult/in_val_TB \
+sim:/tb_mult/out_val_TB \
+sim:/tb_mult/X_TB \
+sim:/tb_mult/Y_TB \
+sim:/tb_mult/out_product_1_TB \
+sim:/tb_mult/out_product_2_TB
+run 100 ns

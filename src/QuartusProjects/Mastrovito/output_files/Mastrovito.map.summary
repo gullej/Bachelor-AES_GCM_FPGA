@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue May 04 14:17:55 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Mastrovito
+Top-level Entity Name : Mastrovito
+Family : MAX 10
+Total logic elements : 11,432
+    Total combinational functions : 11,175
+    Dedicated logic registers : 385
+Total registers : 385
+Total pins : 0
+Total virtual pins : 387
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

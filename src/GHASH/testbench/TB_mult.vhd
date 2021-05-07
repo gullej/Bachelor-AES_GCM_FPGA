@@ -32,9 +32,20 @@ COMPONENT Mastrovito IS
 		out_product : OUT STD_LOGIC_VECTOR(127 DOWNTO 0));
 END COMPONENT;
 
+COMPONENT mast_short IS
+	PORT (
+		clk : IN STD_LOGIC;
+		in_val : IN STD_LOGIC;
+		A : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		B : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		out_val : OUT STD_LOGIC;
+		out_product : OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
+END COMPONENT;
+
 	SIGNAL clk, in_val_TB : STD_LOGIC;
 	SIGNAL out_val_TB : STD_LOGIC_VECTOR(1 DOWNTO 0);
 	SIGNAL X_TB, Y_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
+	--SIGNAL 
 	SIGNAL out_product_1_TB, out_product_2_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	
 	
@@ -50,14 +61,16 @@ BEGIN
 	DUT1 : loopMult   PORT MAP(clk, in_val_TB, X_TB, Y_TB, out_val_TB(0), out_product_1_TB);
 	DUT2 : Mastrovito PORT MAP(clk, in_val_TB, X_TB, Y_TB, out_val_TB(1), out_product_2_TB);
 
+	--DUT : mast_short PORT MAP(clk, in_val_TB, X_TB, Y_TB, out_val_TB, out_product_TB);
+
 	reader : PROCESS (clk)
 
-	FILE multipliers : TEXT OPEN READ_MODE  IS "testbench/test_multipliers.txt";
+	FILE multipliers : TEXT OPEN READ_MODE  IS "../GHASH/testbench/test_multipliers.txt";
 	VARIABLE v_ILINE : LINE;
 	VARIABLE v_OLINE : LINE;
 	VARIABLE v_in_data1  : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	VARIABLE v_in_data2  : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	VARIABLE v_out_data : STD_LOGIC_VECTOR(127 DOWNTO 0);
+	--VARIABLE v_out_data : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	VARIABLE v_SPACE    : character;
 
 	BEGIN

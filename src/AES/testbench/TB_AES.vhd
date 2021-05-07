@@ -39,9 +39,8 @@ BEGIN
 	DUT : AES PORT MAP(clk, key_TB, in_val_TB, in_data_TB, fin_val_TB, fin_data_TB);
 	
 	reader : PROCESS(clk)
-
-	FILE plains  : TEXT OPEN READ_MODE  IS "testbench/test_plains.txt";
-	FILE ciphers : TEXT OPEN WRITE_MODE IS "testbench/test_ciphers.txt";
+	FILE plains  : TEXT OPEN READ_MODE  IS "../AES/testbench/test_plains.txt";
+	FILE ciphers : TEXT OPEN WRITE_MODE IS "../AES/testbench/test_ciphers.txt";
 	VARIABLE v_ILINE : LINE;
 	VARIABLE v_OLINE : LINE;
 	VARIABLE v_in_data  : STD_LOGIC_VECTOR(127 DOWNTO 0);

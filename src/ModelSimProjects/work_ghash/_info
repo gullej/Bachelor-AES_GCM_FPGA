@@ -1,0 +1,207 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eghash
+Z0 w1615894108
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+!i122 4
+Z7 dC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ModelSimProjects
+Z8 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd
+Z9 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd
+l0
+L8 1
+V2g^JaZT^jX5WPbYOP4l[52
+!s100 ;OLZQz5ZFPR33NmEJMQ420
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1620126621
+!i10b 1
+Z12 !s108 1620126621.000000
+Z13 !s90 -reportprogress|300|-work|work_ghash|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd|
+Z14 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd|
+!i113 1
+Z15 o-work work_ghash -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Aghash_arc
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 ghash 0 22 2g^JaZT^jX5WPbYOP4l[52
+!i122 4
+l47
+L18 54
+Ve^_ISegFT3WO?VAaimz3m0
+!s100 gNC139:G]mTNTa4OCHOX>0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eloopmult
+Z17 w1619008338
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 5
+R7
+Z18 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd
+Z19 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd
+l0
+L7 1
+VgD[?R=94Qhl7>N12[Fh^C1
+!s100 meDBH[;^D4DkG2m4>NClY3
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work_ghash|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd|
+Z21 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/loopMult.vhd|
+!i113 1
+R15
+R16
+Aloopmult_arc
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 loopmult 0 22 gD[?R=94Qhl7>N12[Fh^C1
+!i122 5
+l22
+L17 50
+VaNZD0oz;VC?e7PE:_ZmfI2
+!s100 _<G[DX7Jg?@mEiU19NLT_3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Emastrovito
+Z22 w1620042990
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 6
+R7
+Z23 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd
+Z24 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd
+l0
+L7 1
+V7KEi8>6PG39LeV2TRPJm[2
+!s100 _a@Om81f?3Ee1911GD_DU0
+R10
+32
+R11
+!i10b 1
+R12
+Z25 !s90 -reportprogress|300|-work|work_ghash|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd|
+Z26 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/Mastrovito.vhd|
+!i113 1
+R15
+R16
+Amastrovito_arc
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 mastrovito 0 22 7KEi8>6PG39LeV2TRPJm[2
+!i122 6
+l21
+L17 158
+V0CGbIRfg]`X@Y1[g[1L6e1
+!s100 hnHN0IQRnLWV2z=h:Jej50
+R10
+32
+!s110 1620126623
+!i10b 1
+R12
+R25
+R26
+!i113 1
+R15
+R16
+Etb_mult
+Z27 w1620126766
+R1
+R2
+R3
+R4
+R6
+R5
+!i122 9
+R7
+Z28 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd
+Z29 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd
+l0
+L10 1
+Vn3Gj0bPb_z@1aOjBQo_m:0
+!s100 nHI0D^Y6BEhQ;dM^7F=]C1
+R10
+32
+Z30 !s110 1620126769
+!i10b 1
+Z31 !s108 1620126769.000000
+Z32 !s90 -reportprogress|300|-work|work_ghash|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd|
+Z33 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/testbench/TB_mult.vhd|
+!i113 1
+R15
+R16
+Atb_mult_arc
+R1
+R2
+R3
+R4
+R6
+R5
+Z34 DEx4 work 7 tb_mult 0 22 n3Gj0bPb_z@1aOjBQo_m:0
+!i122 9
+l52
+Z35 L13 81
+VcglZ[kceH??X6<<=RhUFl2
+!s100 J:f3hWoHSBBgIieE<nmOM3
+R10
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R15
+R16
