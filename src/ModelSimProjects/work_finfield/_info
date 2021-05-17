@@ -1,0 +1,158 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ebitparallel
+Z0 w1621172334
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+!i122 10
+Z7 dC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ModelSimProjects
+Z8 8C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\bitParallel.vhd
+Z9 FC:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\bitParallel.vhd
+l0
+L7 1
+V=Q>6FeUoz5OV;g^FQZ54L3
+!s100 of=ljZf@n?Go7kcUN;5TF2
+Z10 OV;C;2020.1;71
+32
+!s110 1621172341
+!i10b 1
+Z11 !s108 1621172341.000000
+Z12 !s90 -reportprogress|300|-work|work_finfield|-2002|-explicit|-stats=none|C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\bitParallel.vhd|
+Z13 !s107 C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\bitParallel.vhd|
+!i113 1
+Z14 o-work work_finfield -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abitparallel_arc
+R1
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 11 bitparallel 0 22 =Q>6FeUoz5OV;g^FQZ54L3
+!i122 10
+l21
+L17 150
+Va8oFQh<^9GhUh^b;jPK121
+!s100 1c^_0B??FFakEbd=4K@C]1
+R10
+32
+!s110 1621172343
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eloopmult
+Z17 w1621171602
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 8
+R7
+Z18 8C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\loopMult.vhd
+Z19 FC:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\loopMult.vhd
+l0
+L7 1
+VYfO_jED?>lLO=R?R@6AaW1
+!s100 meDBH[;^D4DkG2m4>NClY3
+R10
+32
+Z20 !s110 1621171606
+!i10b 1
+Z21 !s108 1621171606.000000
+Z22 !s90 -reportprogress|300|-work|work_finfield|-2002|-explicit|-stats=none|C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\loopMult.vhd|
+Z23 !s107 C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\FinField\loopMult.vhd|
+!i113 1
+R14
+R15
+Aloopmult_arc
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 loopmult 0 22 YfO_jED?>lLO=R?R@6AaW1
+!i122 8
+l21
+L17 41
+VgZ_jeC6:fnR:NFTYbb<6h1
+!s100 _8RTAZ4I1aWIhU7QoHfY[0
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Etb_mult
+Z24 w1620471080
+R1
+R2
+R3
+R4
+R6
+R5
+!i122 7
+R7
+Z25 8C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/FinField/testbench/TB_mult.vhd
+Z26 FC:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/FinField/testbench/TB_mult.vhd
+l0
+L10 1
+Vz@21<7S07_eifaS]M8WJ60
+!s100 nHI0D^Y6BEhQ;dM^7F=]C1
+R10
+32
+Z27 !s110 1621171426
+!i10b 1
+Z28 !s108 1621171426.000000
+Z29 !s90 -reportprogress|300|-work|work_finfield|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/FinField/testbench/TB_mult.vhd|
+Z30 !s107 C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/FinField/testbench/TB_mult.vhd|
+!i113 1
+R14
+R15
+Atb_mult_arc
+R1
+R2
+R3
+R4
+R6
+R5
+DEx4 work 7 tb_mult 0 22 z@21<7S07_eifaS]M8WJ60
+!i122 7
+l42
+L13 71
+VXS4i?2P8[6gG7eOMX5mZ]3
+!s100 heb5[5GbaBH[HD:3ADN281
+R10
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R14
+R15

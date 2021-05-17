@@ -39,7 +39,7 @@ BEGIN
 
 	reader : PROCESS (clk)
 
-	FILE plains : TEXT OPEN READ_MODE  IS "testbench/test_hashes.txt";
+	FILE plains : TEXT OPEN READ_MODE  IS "../GHASH/testbench/test_hashes.txt";
 	VARIABLE v_ILINE : LINE;
 	VARIABLE v_OLINE : LINE;
 	VARIABLE v_in_data  : STD_LOGIC_VECTOR(127 DOWNTO 0);
