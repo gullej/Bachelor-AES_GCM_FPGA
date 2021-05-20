@@ -26,8 +26,8 @@ ARCHITECTURE TB_GCM_arc OF TB_GCM IS
 	SIGNAL clk, fin_val_TB, aad_val_TB, SOF_TB, enc_val_TB, is_dec_TB, out_tag_TB, EOF_TB : STD_LOGIC;
 	SIGNAL num_bytes_TB : STD_LOGIC_VECTOR(7 downto 0);
 	SIGNAL input_TB, output_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	SIGNAL key_TB : STD_LOGIC_VECTOR(127 DOWNTO 0) := x"feffe9928665731c6d6a8f9467308308";
-	SIGNAL counter_TB : STD_LOGIC_VECTOR(95 DOWNTO 0) := x"cafebabefacedbaddecaf888";
+	SIGNAL key_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
+	SIGNAL iv_TB : STD_LOGIC_VECTOR(95 DOWNTO 0);
 	
 BEGIN
 	stimulus : PROCESS
@@ -38,22 +38,33 @@ BEGIN
 		WAIT FOR 5 ns;
 	END PROCESS;
 
-	DUT : GCM PORT MAP(clk, SOF_TB, aad_val_TB, enc_val_TB, num_bytes_TB, is_dec_TB, EOF_TB, key_TB, counter_TB, input_TB, fin_val_TB, out_tag_TB, output_TB);
+	DUT : GCM PORT MAP(clk, SOF_TB, aad_val_TB, enc_val_TB, num_bytes_TB, is_dec_TB, EOF_TB, key_TB, iv_TB, input_TB, fin_val_TB, out_tag_TB, output_TB);
 
 	reader : PROCESS(clk)
 
-	FILE plains  : TEXT OPEN READ_MODE  IS "../GCM/testbench/test_case_0.txt";
+	FILE plains  : TEXT OPEN READ_MODE  IS "../GCM/testbench/test_case_2.txt";
 	VARIABLE v_ILINE : LINE;
 	VARIABLE v_in_data  : STD_LOGIC_VECTOR(127 DOWNTO 0);
+	VARIABLE v_in_key : STD_LOGIC_VECTOR(127 DOWNTO 0);
+	VARIABLE v_in_iv : STD_LOGIC_VECTOR(95 DOWNTO 0);
 	VARIABLE v_aad_val, v_SoF, v_enc_val, v_is_dec, v_EOF  : STD_LOGIC;
 	VARIABLE v_num_bytes : STD_LOGIC_VECTOR(7 downto 0);
 	VARIABLE v_SPACE : character;
 	--1, v_SPACE2, v_SPACE3, v_SPACE4 
 	--VARIABLE  : STD_LOGIC;
+	VARIABLE counter : STD_LOGIC_VECTOR(1 downto 0) := "01";
 	
 	BEGIN
 		IF( RISING_EDGE(clk)) THEN
-			IF (NOT ENDFILE(plains)) THEN
+			IF (counter = "01") THEN
+				READLINE(plains, v_ILINE);
+				HREAD(v_ILINE, v_in_key);
+				counter := counter + '1';
+			ELSIF (counter = "10") THEN
+				READLINE(plains, v_ILINE);
+				HREAD(v_ILINE, v_in_iv);
+				counter := counter + '1';
+			ELSIF (NOT ENDFILE(plains)) THEN
 					READLINE(plains, v_ILINE);
 					HREAD(v_ILINE, v_in_data);
 						READ(v_ILINE, v_SPACE);
@@ -78,7 +89,8 @@ BEGIN
 				v_EOF := '0';
 
 			END IF;
-
+			key_TB <= v_in_key;
+			iv_TB <= v_in_iv;
 			input_TB <= v_in_data;
 			SOF_TB <= v_SOF;
 			aad_val_TB <= v_aad_val;

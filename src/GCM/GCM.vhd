@@ -63,7 +63,7 @@ ARCHITECTURE GCM_arc OF GCM IS
 	SIGNAL aad_length, ptext_length : STD_LOGIC_VECTOR(63 DOWNTO 0) := (OTHERS => '0');
 
 BEGIN
-	incrementer : PROCESS (clk)
+	encrypter : PROCESS (clk)
 	BEGIN
 		IF (RISING_EDGE(clk)) THEN
 			IF (SOF = '1') THEN
@@ -84,13 +84,11 @@ BEGIN
 				val_enc <= '0';
 			END IF;
 		END IF;
-
 		full_counter <= iv & counter;
 	END PROCESS;
 
 	director : PROCESS (start_of_frame, mult_run, is_aad, sof_delay(69), sof_delay(70), end_of_frame, fin_enc, X, mult_input, mult_product, after_eof, after_after_eof)
 	BEGIN
-		--IF (RISING_EDGE(clk)) THEN
 		IF (sof_delay(69) = '1') THEN
 			H <= fin_enc;
 		ELSIF (sof_delay(70) = '1') THEN
@@ -101,12 +99,10 @@ BEGIN
 					mult_input <= X;
 					mult_run <= '1';
 				ELSE
-					
-						output <= fin_enc XOR X;
-						out_val <= '1';
-						mult_input <= fin_enc XOR X;
-						mult_run <= '1';
-					
+					output <= fin_enc XOR X;
+					out_val <= '1';
+					mult_input <= fin_enc XOR X;
+					mult_run <= '1';
 				END IF;
 			ELSE
 				IF (is_aad = '1') THEN
@@ -123,9 +119,6 @@ BEGIN
 					END IF;
 				END IF;
 			END IF;
-
-
-
 		ELSIF (after_eof = '1') THEN
 			mult_input <= fin_length XOR mult_product;
 			mult_run <= '1';
@@ -133,17 +126,15 @@ BEGIN
 		ELSIF (after_after_eof = '1') THEN
 			mult_run <= '0';
 			output <= fin_hash XOR mult_product;
-			
 			out_tag <= '1';
 		ELSE
 			mult_run <= '0';
 			out_val <= '0';
 			out_tag <= '0';
 		END IF;
-		--END IF;
 	END PROCESS;
 
-	frameend : PROCESS(clk, end_of_frame, after_eof, after_after_eof)
+	ender : PROCESS (clk, end_of_frame, after_eof, after_after_eof)
 	BEGIN
 		IF (rising_edge(clk)) THEN
 			IF (end_of_frame = '1') THEN
@@ -157,7 +148,7 @@ BEGIN
 		END IF;
 	END PROCESS;
 
-	order : PROCESS (aad_val, enc_val)
+	organizer : PROCESS (aad_val, enc_val)
 	BEGIN
 		IF (aad_val = '1') THEN
 			in_aad <= '1';
@@ -166,15 +157,15 @@ BEGIN
 		END IF;
 	END PROCESS;
 
-	run : PROCESS (clk, SOF, EOF, in_valid)
+	runner : PROCESS (clk, SOF, EOF, in_valid)
 	BEGIN
 
 		IF (SOF = '1') THEN
 			in_valid <= '1';
-		ELSIF (EOF = '1') THEN
+		END IF;
+		IF (EOF = '1') THEN
 			IF (RISING_EDGE(clk)) THEN
 				in_valid <= '0';
-
 			END IF;
 		END IF;
 	END PROCESS;
