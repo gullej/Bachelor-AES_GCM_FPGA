@@ -17,8 +17,17 @@ END ENTITY;
 ARCHITECTURE loopMult_arc OF loopMult IS
 
 	SIGNAL R : STD_LOGIC_VECTOR(127 DOWNTO 0) := ("11100001" & x"000000000000000000000000000000");
+	SIGNAL A,B : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	
 BEGIN
+
+	PROCESS (clk)
+	BEGIN
+	IF (RISING_EDGE(clk)) THEN
+		A <= X;
+		B <= Y;
+	END IF;
+	END PROCESS;
 
 	multiplier : PROCESS (clk)
 		VARIABLE Z_v : STD_LOGIC_VECTOR(127 DOWNTO 0);
@@ -26,11 +35,11 @@ BEGIN
 	BEGIN
 		IF (RISING_EDGE(clk)) THEN
 			IF (in_val = '1') THEN
-				V_v := Y;
+				V_v := B;
 				Z_v := (others => '0');
 
 				looper : FOR i IN 0 TO 127 LOOP
-					IF (X(127-i) = '0') THEN
+					IF (A(127-i) = '0') THEN
 						Z_v := Z_v;
 					ELSE
 						Z_v := Z_v xor V_v;

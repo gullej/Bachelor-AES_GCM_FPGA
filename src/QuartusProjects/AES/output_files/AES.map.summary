@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 02 12:56:47 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : AES
+Top-level Entity Name : AES
+Family : Cyclone 10 LP
+Total logic elements : 9,829
+    Total combinational functions : 4,448
+    Dedicated logic registers : 9,221
+Total registers : 9221
+Total pins : 0
+Total virtual pins : 387
+Total memory bits : 409,600
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

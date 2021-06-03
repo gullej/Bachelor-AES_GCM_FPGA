@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 02 13:00:52 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : bitParallel_QUART
+Top-level Entity Name : bitParallel_QUART
+Family : Cyclone 10 LP
+Total logic elements : 11,410
+    Total combinational functions : 11,153
+    Dedicated logic registers : 385
+Total registers : 385
+Total pins : 0
+Total virtual pins : 387
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

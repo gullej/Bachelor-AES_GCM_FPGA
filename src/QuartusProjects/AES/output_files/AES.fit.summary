@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jun 02 12:57:44 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : AES
+Top-level Entity Name : AES
+Family : Cyclone 10 LP
+Device : 10CL055YF484C8G
+Timing Models : Final
+Total logic elements : 7,910 / 55,856 ( 14 % )
+    Total combinational functions : 4,448 / 55,856 ( 8 % )
+    Dedicated logic registers : 7,621 / 55,856 ( 14 % )
+Total registers : 7621
+Total pins : 0 / 322 ( 0 % )
+Total virtual pins : 387
+Total memory bits : 409,600 / 2,396,160 ( 17 % )
+Embedded Multiplier 9-bit elements : 0 / 312 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -9.309
+TNS   : -47157.727
+
+Type  : Slow 1200mV 85C Model Setup 'REG:delayREG69|out_frame_start'
+Slack : -7.818
+TNS   : -1998.720
+
+Type  : Slow 1200mV 85C Model Hold 'REG:delayREG69|out_frame_start'
+Slack : -0.198
+TNS   : -9.800
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -32707.727
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'REG:delayREG69|out_frame_start'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -8.668
+TNS   : -43563.752
+
+Type  : Slow 1200mV 0C Model Setup 'REG:delayREG69|out_frame_start'
+Slack : -7.564
+TNS   : -1943.291
+
+Type  : Slow 1200mV 0C Model Hold 'REG:delayREG69|out_frame_start'
+Slack : -0.016
+TNS   : -0.269
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -32721.223
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'REG:delayREG69|out_frame_start'
+Slack : 0.116
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.110
+TNS   : -11382.546
+
+Type  : Fast 1200mV 0C Model Setup 'REG:delayREG69|out_frame_start'
+Slack : -2.712
+TNS   : -577.729
+
+Type  : Fast 1200mV 0C Model Hold 'REG:delayREG69|out_frame_start'
+Slack : -0.068
+TNS   : -0.223
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.081
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -19921.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'REG:delayREG69|out_frame_start'
+Slack : 0.331
+TNS   : 0.000
+
+------------------------------------------------------------

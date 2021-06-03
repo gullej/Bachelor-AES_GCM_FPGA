@@ -25,7 +25,7 @@ ARCHITECTURE TB_AES_arc OF TB_AES IS
 	SIGNAL clk, fin_val_TB : STD_LOGIC;
 	SIGNAL in_val_TB : STD_LOGIC;
 	SIGNAL in_data_TB, fin_data_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	SIGNAL key_TB : STD_LOGIC_VECTOR(127 DOWNTO 0) := x"00000000000000000000000000000000";
+	SIGNAL key_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	
 BEGIN
 	stimulus : PROCESS
@@ -39,19 +39,17 @@ BEGIN
 	DUT : AES PORT MAP(clk, key_TB, in_val_TB, in_data_TB, fin_val_TB, fin_data_TB);
 	
 	reader : PROCESS(clk)
-	FILE plains  : TEXT OPEN READ_MODE  IS "../AES/testbench/test_plains.txt";
-	FILE ciphers : TEXT OPEN WRITE_MODE IS "../AES/testbench/test_ciphers.txt";
+	FILE plains  : TEXT OPEN READ_MODE  IS "../AES/testbench/test_case2.txt";
 	VARIABLE v_ILINE : LINE;
-	VARIABLE v_OLINE : LINE;
-	VARIABLE v_in_data  : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	VARIABLE v_out_data : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	
+	VARIABLE v_in_data, v_key  : STD_LOGIC_VECTOR(127 DOWNTO 0);
+	VARIABLE v_SPACE : character;
 	BEGIN
 		IF( RISING_EDGE(clk)) THEN
 			IF (NOT ENDFILE(plains)) THEN
 					READLINE(plains, v_ILINE);
 					HREAD(v_ILINE, v_in_data);
-	
+					READ(v_ILINE, v_SPACE);
+					HREAD(v_ILINE, v_key);
 					in_val_TB <= '1';
 			ELSE
 
@@ -59,7 +57,7 @@ BEGIN
 			END IF;
 
 			in_data_TB <= v_in_data;
-			--v_out_data <= fin_data_TB;
+			key_TB <= v_key;
 
 		END IF;
 

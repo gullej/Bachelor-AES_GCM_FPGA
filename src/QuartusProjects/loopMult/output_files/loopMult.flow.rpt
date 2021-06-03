@@ -1,5 +1,5 @@
 Flow report for loopMult
-Tue May 04 14:47:32 2021
+Wed Jun 02 12:48:26 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,24 +41,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue May 04 14:47:16 2021       ;
+; Flow Status                        ; Successful - Wed Jun 02 12:48:20 2021       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; loopMult                                    ;
 ; Top-level Entity Name              ; loopMult                                    ;
-; Family                             ; MAX 10                                      ;
-; Device                             ; 10M50DAF484C7G                              ;
+; Family                             ; Cyclone 10 LP                               ;
+; Device                             ; 10CL055YF484C8G                             ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 14,089 / 49,760 ( 28 % )                    ;
-;     Total combinational functions  ; 14,030 / 49,760 ( 28 % )                    ;
-;     Dedicated logic registers      ; 385 / 49,760 ( < 1 % )                      ;
+; Total logic elements               ; 11,770 / 55,856 ( 21 % )                    ;
+;     Total combinational functions  ; 11,750 / 55,856 ( 21 % )                    ;
+;     Dedicated logic registers      ; 385 / 55,856 ( < 1 % )                      ;
 ; Total registers                    ; 385                                         ;
-; Total pins                         ; 0 / 360 ( 0 % )                             ;
+; Total pins                         ; 0 / 322 ( 0 % )                             ;
 ; Total virtual pins                 ; 387                                         ;
-; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total memory bits                  ; 0 / 2,396,160 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 312 ( 0 % )                             ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
-; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
-; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -67,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/04/2021 14:42:59 ;
+; Start date & time ; 06/02/2021 12:45:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; loopMult            ;
 +-------------------+---------------------+
@@ -78,9 +76,10 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589208.162013217908764         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 10995770589208.162263073906180         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -93,11 +92,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:53     ; 1.0                     ; 4916 MB             ; 00:01:07                           ;
-; Fitter               ; 00:03:14     ; 1.3                     ; 5756 MB             ; 00:04:59                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4723 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:15     ; 2.6                     ; 4902 MB             ; 00:00:35                           ;
-; Total                ; 00:04:26     ; --                      ; --                  ; 00:06:45                           ;
+; Analysis & Synthesis ; 00:01:06     ; 1.0                     ; 4930 MB             ; 00:01:25                           ;
+; Fitter               ; 00:01:28     ; 1.2                     ; 5618 MB             ; 00:02:37                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4712 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.5                     ; 4879 MB             ; 00:00:07                           ;
+; Total                ; 00:02:42     ; --                      ; --                  ; 00:04:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

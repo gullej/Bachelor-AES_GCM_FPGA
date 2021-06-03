@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jun 02 13:35:36 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : GCM
+Top-level Entity Name : GCM
+Family : Cyclone 10 LP
+Device : 10CL055YF484C8G
+Timing Models : Final
+Total logic elements : 31,103 / 55,856 ( 56 % )
+    Total combinational functions : 27,818 / 55,856 ( 50 % )
+    Dedicated logic registers : 18,121 / 55,856 ( 32 % )
+Total registers : 18121
+Total pins : 0 / 322 ( 0 % )
+Total virtual pins : 496
+Total memory bits : 409,600 / 2,396,160 ( 17 % )
+Embedded Multiplier 9-bit elements : 0 / 312 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

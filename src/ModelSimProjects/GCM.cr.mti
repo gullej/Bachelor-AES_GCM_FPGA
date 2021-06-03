@@ -1,16 +1,4 @@
-{C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GCM/GCM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\GCM\GCM.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_textio
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity GCM
--- Compiling architecture GCM_arc of GCM
-
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd}
+{C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesWord.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -108,18 +96,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity KeyGenerate
 -- Compiling architecture KeyGenerate_arc of KeyGenerate
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GHASH/GHASH.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_textio
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity GHASH
--- Compiling architecture GHASH_arc of GHASH
-
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/KeyExpansion.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -132,6 +108,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity KeyExpansion
 -- Compiling architecture KeyExpansion_arc of KeyExpansion
 
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SubBytesROM
+-- Compiling architecture SubBytesROM_ARC of SubBytesROM
+
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -143,16 +128,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity MixColumns
 -- Compiling architecture rtl of MixColumns
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity SubBytesROM
--- Compiling architecture SubBytesROM_ARC of SubBytesROM
-
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd}
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/CounterMode/CounterMode.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/CounterMode/CounterMode.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -161,8 +137,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity AESRound
--- Compiling architecture AESRound_arc of AESRound
+-- Compiling entity CounterMode
+-- Compiling architecture CounterMode_arc of CounterMode
 
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -176,7 +152,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity SubBytes
 -- Compiling architecture SubBytes_arc of SubBytes
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/CounterMode/CounterMode.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/CounterMode/CounterMode.vhd}
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd} {1 {vcom -work work_gcm -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -185,7 +161,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity CounterMode
--- Compiling architecture CounterMode_arc of CounterMode
+-- Compiling entity AESRound
+-- Compiling architecture AESRound_arc of AESRound
 
 } {} {}}
