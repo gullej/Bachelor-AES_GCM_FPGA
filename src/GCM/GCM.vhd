@@ -102,6 +102,8 @@ BEGIN
 			IF (start_of_frame = '1') THEN
 				IF (is_aad = '1') THEN
 					mult_input <= X;
+					output <= X;
+					out_val <= '1';
 					mult_run <= '1';
 				ELSE
 					output <= fin_enc XOR X;

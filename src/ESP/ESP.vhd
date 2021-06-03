@@ -27,11 +27,12 @@ ARCHITECTURE ESP_arc OF ESP IS
 	END COMPONENT;
 
 	COMPONENT Seq_MEM IS
-		PORT (
-			clock, in_val : IN STD_LOGIC;
-			address : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-			out_val : OUT STD_LOGIC;
-			out_seq : OUT STD_LOGIC_VECTOR(63 DOWNTO 0));
+    	PORT (
+        	clock, in_val : IN STD_LOGIC;
+        	address : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+        	out_val : OUT STD_LOGIC;
+		out_seq : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+		out_seq_32 : OUT STD_LOGIC);
 	END COMPONENT;
 
 	COMPONENT GCM IS
@@ -56,7 +57,7 @@ ARCHITECTURE ESP_arc OF ESP IS
 	SIGNAL gcm_sof, gcm_aad_val, gcm_enc_val : STD_LOGIC := '0';
 	SIGNAL gcm_eof, after_after_sof, after_eof : STD_LOGIC := '0';
 	SIGNAL after_after_after_sof, after_after_eof : STD_LOGIC := '0';
-	SIGNAL after_after_after_eof : STD_LOGIC := '0';
+	SIGNAL after_after_after_eof, seq_32 : STD_LOGIC := '0';
 	SIGNAL gcm_num_bits, numBitShift1, numBitShift2 : STD_LOGIC_VECTOR(7 DOWNTO 0);
 	SIGNAL shift1, shift2 : STD_LOGIC_VECTOR(127 DOWNTO 0);
 
@@ -66,7 +67,7 @@ BEGIN
 	gcm_iv(95 DOWNTO 64) <= out_salt;
 
 
-	U1 : Seq_MEM PORT MAP(clk, mem_val, count, out_seq_val, sequence_number);
+	U1 : Seq_MEM PORT MAP(clk, mem_val, count, out_seq_val, sequence_number, seq_32);
 	U2 : SPI_ROM PORT MAP(clk, mem_val, count, out_spi_val, out_spi, out_salt, gcm_key);
 
 	U : GCM PORT MAP(clk, gcm_sof, gcm_aad_val, gcm_enc_val, gcm_num_bits, gcm_isDec, gcm_eof, gcm_key, gcm_iv, gcm_input, out_gcm_val, out_gcm_tag, gcm_output);
@@ -89,7 +90,7 @@ BEGIN
 		END IF;
 	END PROCESS;
 
-	starter : PROCESS (sof, after_sof, after_after_sof, eof, after_eof, shift1, gcm_aad, gcm_input, gcm_enc_val)
+	starter : PROCESS (sof, after_sof, after_after_sof, eof, after_eof, after_after_eof,after_after_after_eof, shift1, shift2, numBitShift1, numBitShift2, gcm_aad, gcm_input, gcm_enc_val)
 	BEGIN
 		IF (sof = '1') THEN
 			mem_val <= '1';
@@ -101,7 +102,11 @@ BEGIN
 			gcm_sof <= '1';
 			gcm_aad_val <= '1';
 			gcm_input <= gcm_aad;
-			gcm_num_bits <= x"60";
+			if (seq_32 = '1') THEN
+				gcm_num_bits <= x"40";
+			ELSE
+				gcm_num_bits <= x"60";
+			END IF;
 		ELSIF (after_after_after_sof = '1') THEN
 			gcm_sof <= '0';
 			gcm_enc_val <= '1';
@@ -112,6 +117,11 @@ BEGIN
 			gcm_eof <= '1';
 			gcm_input <= shift2;
 			gcm_num_bits <= numBitShift2;
+		ELSIF (after_after_after_eof = '1') THEN
+			gcm_eof <= '0';
+			gcm_aad_val <= '0';
+			gcm_sof <= '0';
+			gcm_enc_val <= '0';
 		ELSE
 			gcm_input <= shift2;
 			gcm_num_bits <= numBitShift2;

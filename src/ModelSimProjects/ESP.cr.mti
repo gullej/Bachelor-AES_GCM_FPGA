@@ -1,4 +1,4 @@
-{C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GCM/GCM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\GCM\GCM.vhd}
+{C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GCM/GCM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/GCM/GCM.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -22,7 +22,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity SubBytesWord
 -- Compiling architecture SubBytesWord_arc of SubBytesWord
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/Seq_MEM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\ESP\Seq_MEM.vhd}
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/Seq_MEM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/Seq_MEM.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -34,7 +34,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Seq_MEM
 -- Compiling architecture Seq_MEM_ARC of Seq_MEM
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/ESP.vhd} {1 {vcom -work work_esp -2002 -explicit -stats=none {C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\ESP\ESP.vhd}
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/ESP.vhd} {1 {vcom -work work_esp -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/ESP.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -132,6 +132,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity KeyExpansion
 -- Compiling architecture KeyExpansion_arc of KeyExpansion
 
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SubBytesROM
+-- Compiling architecture SubBytesROM_ARC of SubBytesROM
+
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/MixColumns.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -143,16 +152,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity MixColumns
 -- Compiling architecture rtl of MixColumns
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytesROM.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity SubBytesROM
--- Compiling architecture SubBytesROM_ARC of SubBytesROM
-
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/SPI_ROM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\ESP\SPI_ROM.vhd}
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/SPI_ROM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/SPI_ROM.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -163,18 +163,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity SPI_ROM
 -- Compiling architecture SPI_ROM_ARC of SPI_ROM
-
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_textio
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity SubBytes
--- Compiling architecture SubBytes_arc of SubBytes
 
 } {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/AESRound.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -188,7 +176,19 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity AESRound
 -- Compiling architecture AESRound_arc of AESRound
 
-} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/testbench/TB_ESP.vhd} {1 {vcom -work work_esp -2002 -explicit -stats=none {C:\Users\Gustav Surface\Documents\GitRepos\AES-GCM_FPGA\src\ESP\testbench\TB_ESP.vhd}
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/AES/SubBytes.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SubBytes
+-- Compiling architecture SubBytes_arc of SubBytes
+
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/testbench/TB_ESP.vhd} {1 {vcom -work work_esp -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/AES-GCM_FPGA/src/ESP/testbench/TB_ESP.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
