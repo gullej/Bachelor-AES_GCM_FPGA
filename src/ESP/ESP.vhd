@@ -43,7 +43,7 @@ ARCHITECTURE ESP_arc OF ESP IS
 			key : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
 			iv : IN STD_LOGIC_VECTOR(95 DOWNTO 0);
 			input : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
-			out_val, out_tag : OUT STD_LOGIC;
+			out_val, out_aad, out_tag : OUT STD_LOGIC;
 			output : OUT STD_LOGIC_VECTOR(127 DOWNTO 0));
 	END COMPONENT;
 
@@ -53,7 +53,7 @@ ARCHITECTURE ESP_arc OF ESP IS
 	SIGNAL out_salt, out_spi : STD_LOGIC_VECTOR(31 DOWNTO 0);
 	SIGNAL gcm_iv : STD_LOGIC_VECTOR(95 DOWNTO 0);
 	SIGNAL after_sof, mem_val, out_seq_val, out_spi_val : STD_LOGIC := '0';
-	SIGNAL out_gcm_val, out_gcm_tag, gcm_isDec : STD_LOGIC := '0';
+	SIGNAL out_gcm_val, out_gcm_tag, out_gcm_aad, gcm_isDec : STD_LOGIC := '0';
 	SIGNAL gcm_sof, gcm_aad_val, gcm_enc_val : STD_LOGIC := '0';
 	SIGNAL gcm_eof, after_after_sof, after_eof : STD_LOGIC := '0';
 	SIGNAL after_after_after_sof, after_after_eof : STD_LOGIC := '0';
@@ -70,7 +70,7 @@ BEGIN
 	U1 : Seq_MEM PORT MAP(clk, mem_val, count, out_seq_val, sequence_number, seq_32);
 	U2 : SPI_ROM PORT MAP(clk, mem_val, count, out_spi_val, out_spi, out_salt, gcm_key);
 
-	U : GCM PORT MAP(clk, gcm_sof, gcm_aad_val, gcm_enc_val, gcm_num_bits, gcm_isDec, gcm_eof, gcm_key, gcm_iv, gcm_input, out_gcm_val, out_gcm_tag, gcm_output);
+	U : GCM PORT MAP(clk, gcm_sof, gcm_aad_val, gcm_enc_val, gcm_num_bits, gcm_isDec, gcm_eof, gcm_key, gcm_iv, gcm_input, out_gcm_val, out_gcm_aad, out_gcm_tag, gcm_output);
 	
 	shiftreg : PROCESS (clk, input, sof, after_sof, after_after_sof, after_after_after_sof, eof, after_eof, after_after_eof, after_after_after_eof)
 	BEGIN
@@ -133,7 +133,7 @@ BEGIN
 	outer : PROCESS(clk, out_gcm_val, out_gcm_tag, gcm_output)
 	BEGIN
 		IF (rising_edge(clk)) THEN
-			IF (out_gcm_val = '1' or out_gcm_tag = '1') THEN
+			IF (out_gcm_val = '1' or out_gcm_tag = '1' or out_gcm_aad = '1') THEN
 				output <= gcm_output;
 				out_val <= '1';
 			ELSE

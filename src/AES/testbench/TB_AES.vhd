@@ -39,7 +39,7 @@ BEGIN
 	DUT : AES PORT MAP(clk, key_TB, in_val_TB, in_data_TB, fin_val_TB, fin_data_TB);
 	
 	reader : PROCESS(clk)
-	FILE plains  : TEXT OPEN READ_MODE  IS "../AES/testbench/test_case2.txt";
+	FILE plains  : TEXT OPEN READ_MODE  IS "../AES/testbench/test_case_1.txt";
 	VARIABLE v_ILINE : LINE;
 	VARIABLE v_in_data, v_key  : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	VARIABLE v_SPACE : character;

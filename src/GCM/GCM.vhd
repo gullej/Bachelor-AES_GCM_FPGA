@@ -12,7 +12,7 @@ ENTITY GCM IS
 		key : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
 		iv : IN STD_LOGIC_VECTOR(95 DOWNTO 0);
 		input : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
-		out_val, out_tag : OUT STD_LOGIC;
+		out_val, out_aad, out_tag : OUT STD_LOGIC;
 		output : OUT STD_LOGIC_VECTOR(127 DOWNTO 0));
 END ENTITY;
 
@@ -103,7 +103,7 @@ BEGIN
 				IF (is_aad = '1') THEN
 					mult_input <= X;
 					output <= X;
-					out_val <= '1';
+					out_aad <= '1';
 					mult_run <= '1';
 				ELSE
 					output <= fin_enc XOR X;
@@ -115,6 +115,8 @@ BEGIN
 				IF (is_aad = '1') THEN
 					mult_input <= X XOR mult_product;
 					mult_run <= '1';
+					output <= X;
+					out_aad <= '1';
 				ELSE
 					IF (bits_delayed = x"00") THEN
 						output <= fin_enc XOR X;
@@ -144,6 +146,7 @@ BEGIN
 				ELSE
 					output <= fin_enc XOR X;
 					out_val <= '1';
+					out_aad <= '0';
 					mult_input <= fin_enc XOR X XOR mult_product;
 					mult_run <= '1';
 				END IF;
