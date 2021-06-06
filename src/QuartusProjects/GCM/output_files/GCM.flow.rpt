@@ -1,5 +1,5 @@
 Flow report for GCM
-Wed Jun 02 13:36:00 2021
+Sun Jun 06 13:10:48 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,20 +41,20 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Jun 02 13:35:45 2021       ;
+; Flow Status                        ; Successful - Sun Jun 06 13:10:31 2021       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; GCM                                         ;
 ; Top-level Entity Name              ; GCM                                         ;
 ; Family                             ; Cyclone 10 LP                               ;
 ; Device                             ; 10CL055YF484C8G                             ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 31,103 / 55,856 ( 56 % )                    ;
-;     Total combinational functions  ; 27,818 / 55,856 ( 50 % )                    ;
-;     Dedicated logic registers      ; 18,121 / 55,856 ( 32 % )                    ;
-; Total registers                    ; 18121                                       ;
-; Total pins                         ; 0 / 322 ( 0 % )                             ;
+; Total logic elements               ; 21,441 / 55,856 ( 38 % )                    ;
+;     Total combinational functions  ; 18,115 / 55,856 ( 32 % )                    ;
+;     Dedicated logic registers      ; 8,205 / 55,856 ( 15 % )                     ;
+; Total registers                    ; 8205                                        ;
+; Total pins                         ; 1 / 322 ( < 1 % )                           ;
 ; Total virtual pins                 ; 496                                         ;
-; Total memory bits                  ; 409,600 / 2,396,160 ( 17 % )                ;
+; Total memory bits                  ; 419,256 / 2,396,160 ( 17 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 312 ( 0 % )                             ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/02/2021 13:24:47 ;
+; Start date & time ; 06/06/2021 12:56:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; GCM                 ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589208.162263308713588         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 10995770589208.162297701217360         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -92,11 +92,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:58     ; 1.0                     ; 5224 MB             ; 00:02:16                           ;
-; Fitter               ; 00:08:46     ; 1.1                     ; 5905 MB             ; 00:13:37                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4794 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:13     ; 1.7                     ; 5109 MB             ; 00:00:21                           ;
-; Total                ; 00:11:00     ; --                      ; --                  ; 00:16:18                           ;
+; Analysis & Synthesis ; 00:02:09     ; 1.0                     ; 5209 MB             ; 00:02:32                           ;
+; Fitter               ; 00:11:14     ; 1.1                     ; 5828 MB             ; 00:16:46                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4765 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:15     ; 1.8                     ; 5024 MB             ; 00:00:26                           ;
+; Total                ; 00:13:42     ; --                      ; --                  ; 00:19:48                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

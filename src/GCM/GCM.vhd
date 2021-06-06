@@ -91,7 +91,7 @@ BEGIN
 		full_counter <= iv & counter;
 	END PROCESS;
 
-	director : PROCESS (start_of_frame, mult_run, is_aad, sof_delay(69), sof_delay(70), end_of_frame, fin_enc, X, mult_input, mult_product, after_eof, after_after_eof, bits_delayed)
+	director : PROCESS (sof_delay(69), fin_enc, sof_delay(70), run_valid, start_of_frame, is_aad, X, end_of_frame, mult_product, bits_delayed, after_eof, after_after_eof)
 		VARIABLE temp_vector : STD_LOGIC_VECTOR(127 DOWNTO 0);
 	BEGIN
 		IF (sof_delay(69) = '1') THEN
@@ -185,15 +185,13 @@ BEGIN
 
 	runner : PROCESS (clk, SOF, EOF, in_valid)
 	BEGIN
-		--IF (RISING_EDGE(clk)) THEN -- this should not be here for it to work
-			IF (SOF = '1') THEN
-				IF (isDec = '1') THEN
-					val_dec <= '1';
-				END IF;
-				in_valid <= '1';
+		IF (SOF = '1') THEN
+			IF (isDec = '1') THEN
+				val_dec <= '1';
 			END IF;
-			IF (EOF = '1') THEN
-				IF (RISING_EDGE(clk)) THEN		
+			in_valid <= '1';
+		ELSIF (EOF = '1') THEN
+			IF (RISING_EDGE(clk)) THEN		
 				in_valid <= '0';
 				val_dec <= '0';
 			END IF;

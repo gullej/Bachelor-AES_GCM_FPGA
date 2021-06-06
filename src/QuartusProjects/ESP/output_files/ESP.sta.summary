@@ -1,0 +1,137 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -9.431
+TNS   : -27703.449
+
+Type  : Slow 1200mV 85C Model Setup 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -8.412
+TNS   : -1995.651
+
+Type  : Slow 1200mV 85C Model Setup 'sof'
+Slack : -4.288
+TNS   : -371.532
+
+Type  : Slow 1200mV 85C Model Hold 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -1.191
+TNS   : -2.131
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'sof'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -0.765
+TNS   : -0.765
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 0.998
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -19254.994
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : 0.233
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sof'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -8.576
+TNS   : -25429.192
+
+Type  : Slow 1200mV 0C Model Setup 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -8.246
+TNS   : -1936.802
+
+Type  : Slow 1200mV 0C Model Setup 'sof'
+Slack : -4.098
+TNS   : -381.313
+
+Type  : Slow 1200mV 0C Model Hold 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -1.065
+TNS   : -1.759
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'sof'
+Slack : 0.668
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -0.719
+TNS   : -0.719
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 0.873
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -19256.594
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sof'
+Slack : 0.029
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -3.746
+TNS   : -6678.496
+
+Type  : Fast 1200mV 0C Model Setup 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -3.383
+TNS   : -609.319
+
+Type  : Fast 1200mV 0C Model Setup 'sof'
+Slack : -1.225
+TNS   : -69.917
+
+Type  : Fast 1200mV 0C Model Hold 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -0.692
+TNS   : -2.175
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sof'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -10730.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sof'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'GCM:U|REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : 0.358
+TNS   : 0.000
+
+------------------------------------------------------------

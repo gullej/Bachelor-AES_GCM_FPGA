@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jun 06 12:59:12 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ESP
+Top-level Entity Name : ESP
+Family : Cyclone 10 LP
+Total logic elements : 24,800
+    Total combinational functions : 18,938
+    Dedicated logic registers : 10,373
+Total registers : 10373
+Total pins : 0
+Total virtual pins : 269
+Total memory bits : 410,177
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

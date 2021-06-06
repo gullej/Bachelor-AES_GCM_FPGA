@@ -3,75 +3,75 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -9.309
-TNS   : -47157.727
+Slack : -9.628
+TNS   : -23669.498
 
-Type  : Slow 1200mV 85C Model Setup 'REG:delayREG69|out_frame_start'
-Slack : -7.818
-TNS   : -1998.720
+Type  : Slow 1200mV 85C Model Setup 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -7.594
+TNS   : -1626.603
 
-Type  : Slow 1200mV 85C Model Hold 'REG:delayREG69|out_frame_start'
-Slack : -0.198
-TNS   : -9.800
+Type  : Slow 1200mV 85C Model Hold 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -2.302
+TNS   : -131.427
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.205
+Slack : 0.335
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
 Slack : -3.201
-TNS   : -32707.727
+TNS   : -18477.996
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'REG:delayREG69|out_frame_start'
-Slack : 0.237
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : 0.129
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -8.668
-TNS   : -43563.752
+Slack : -9.032
+TNS   : -21653.927
 
-Type  : Slow 1200mV 0C Model Setup 'REG:delayREG69|out_frame_start'
-Slack : -7.564
-TNS   : -1943.291
+Type  : Slow 1200mV 0C Model Setup 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -7.272
+TNS   : -1574.412
 
-Type  : Slow 1200mV 0C Model Hold 'REG:delayREG69|out_frame_start'
-Slack : -0.016
-TNS   : -0.269
+Type  : Slow 1200mV 0C Model Hold 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -2.062
+TNS   : -105.520
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.184
+Slack : 0.317
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.201
-TNS   : -32721.223
+TNS   : -18478.260
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'REG:delayREG69|out_frame_start'
-Slack : 0.116
-TNS   : 0.000
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -0.064
+TNS   : -0.162
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -4.110
-TNS   : -11382.546
+Slack : -4.184
+TNS   : -5053.099
 
-Type  : Fast 1200mV 0C Model Setup 'REG:delayREG69|out_frame_start'
-Slack : -2.712
-TNS   : -577.729
+Type  : Fast 1200mV 0C Model Setup 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -2.865
+TNS   : -501.348
 
-Type  : Fast 1200mV 0C Model Hold 'REG:delayREG69|out_frame_start'
-Slack : -0.068
-TNS   : -0.223
+Type  : Fast 1200mV 0C Model Hold 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : -1.141
+TNS   : -80.466
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.081
+Slack : 0.097
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -1.000
-TNS   : -19921.000
+TNS   : -10166.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'REG:delayREG69|out_frame_start'
-Slack : 0.331
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'REG:delayREG1|altshift_taps:out_frame_start_rtl_0|shift_taps_b6m:auto_generated|altsyncram_de81:altsyncram2|ram_block3a0'
+Slack : 0.335
 TNS   : 0.000
 
 ------------------------------------------------------------

@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Wed Jun 02 13:26:48 2021
+Analysis & Synthesis Status : Successful - Sun Jun 06 12:59:04 2021
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : GCM
 Top-level Entity Name : GCM
 Family : Cyclone 10 LP
-Total logic elements : 33,273
-    Total combinational functions : 27,818
-    Dedicated logic registers : 19,721
-Total registers : 19721
-Total pins : 0
+Total logic elements : 23,639
+    Total combinational functions : 18,115
+    Dedicated logic registers : 9,805
+Total registers : 9805
+Total pins : 1
 Total virtual pins : 496
-Total memory bits : 409,600
+Total memory bits : 419,256
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0
