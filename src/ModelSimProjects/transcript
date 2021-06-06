@@ -1,10 +1,6 @@
-# Compile of GCM.vhd was successful.
-# Compile of REG.vhd failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
-# Compile of REG.vhd was successful.
-vsim -gui work_esp.tb_esp
-# vsim -gui work_esp.tb_esp 
-# Start time: 11:23:36 on Jun 06,2021
+vsim -gui work_counter.tb_counter
+# vsim -gui work_counter.tb_counter 
+# Start time: 14:27:37 on Jun 06,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -12,198 +8,93 @@ vsim -gui work_esp.tb_esp
 # Loading ieee.numeric_std(body)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_unsigned(body)
-# Loading work_esp.tb_esp(tb_esp_arc)
-# Loading work_esp.esp(esp_arc)
-# Loading work_esp.seq_mem(seq_mem_arc)
-# Loading work_esp.spi_rom(spi_rom_arc)
-# Loading work_esp.gcm(gcm_arc)
-# Loading work_esp.aes(aes_arc)
-# Loading work_esp.keyexpansion(keyexpansion_arc)
-# Loading work_esp.keygenerate(keygenerate_arc)
-# Loading work_esp.subbytesword(subbytesword_arc)
-# Loading work_esp.subbytesrom(subbytesrom_arc)
-# Loading work_esp.addkey(rtl)
-# Loading work_esp.aesround(aesround_arc)
-# Loading work_esp.subbytes(subbytes_arc)
-# Loading work_esp.shiftrows(shiftrows_arch)
-# Loading work_esp.mixcolumns(rtl)
-# Loading work_esp.mixcalc(rtl)
-# Loading work_esp.bitparallel(bitparallel_arc)
-# Loading work_esp.reg(reg_arc)
-# ** Warning: Design size of 16465 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Loading work_counter.tb_counter(tb_counter_arc)
+# Loading work_counter.countermode(countermode_arc)
+# Loading work_counter.aes(aes_arc)
+# Loading work_counter.keyexpansion(keyexpansion_arc)
+# Loading work_counter.keygenerate(keygenerate_arc)
+# Loading work_counter.subbytesword(subbytesword_arc)
+# Loading work_counter.subbytesrom(subbytesrom_arc)
+# Loading work_counter.addkey(rtl)
+# Loading work_counter.aesround(aesround_arc)
+# Loading work_counter.subbytes(subbytes_arc)
+# Loading work_counter.shiftrows(shiftrows_arch)
+# Loading work_counter.mixcolumns(rtl)
+# Loading work_counter.mixcalc(rtl)
+# Loading work_counter.reg(reg_arc)
+# ** Warning: Design size of 15889 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 add wave -position insertpoint  \
-sim:/tb_esp/clk \
-sim:/tb_esp/sof_TB \
-sim:/tb_esp/eof_TB \
-sim:/tb_esp/out_val_TB \
-sim:/tb_esp/is_dec_TB \
-sim:/tb_esp/num_bits_TB \
-sim:/tb_esp/input_TB \
-sim:/tb_esp/output_TB
+sim:/tb_counter/clk \
+sim:/tb_counter/fin_val_TB \
+sim:/tb_counter/in_val_TB \
+sim:/tb_counter/input_TB \
+sim:/tb_counter/output_TB \
+sim:/tb_counter/key_TB \
+sim:/tb_counter/counter_TB
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Gustav Surface  Hostname: GUSTAV-SURFACE  ProcessID: 8736
-#           Attempting to use alternate WLF file "./wlft33gn7b".
+#           Attempting to use alternate WLF file "./wlftmv7bxc".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft33gn7b
-run 2200 ns
+#           Using alternate file: ./wlftmv7bxc
+run 800 ns
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U1/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U1/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U2/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U2/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U3/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U3/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U4/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U4/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U5/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U5/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U6/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U6/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U7/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U7/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U8/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U8/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U9/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U9/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U10/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U1/U10/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U3/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U3/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U3/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U3/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U4/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U4/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U4/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U4/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U5/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U5/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U5/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U5/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U6/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U6/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U6/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U6/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U7/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U7/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U7/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U7/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U8/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U8/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U8/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U8/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U9/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U9/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U9/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U9/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U10/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U10/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U10/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U10/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U11/U1
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U11/U1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U11/U3
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U11/U3
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U12
-# Compile of ESP.vhd was successful.
-# Compile of TB_ESP.vhd was successful.
-# Compile of SPI_ROM.vhd was successful.
-# Compile of Seq_MEM.vhd was successful.
-# Compile of GCM.vhd was successful.
-# Compile of bitParallel.vhd was successful.
-# Compile of AddKey.vhd was successful.
-# Compile of AES.vhd was successful.
-# Compile of AESRound.vhd was successful.
-# Compile of KeyExpansion.vhd was successful.
-# Compile of KeyGenerate.vhd was successful.
-# Compile of MixCalc.vhd was successful.
-# Compile of MixColumns.vhd was successful.
-# Compile of ShiftRows.vhd was successful.
-# Compile of SubBytes.vhd was successful.
-# Compile of SubBytesROM.vhd was successful.
-# Compile of SubBytesWord.vhd was successful.
-# Compile of REG.vhd was successful.
-# 18 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work_esp.tb_esp(tb_esp_arc)
-# Loading work_esp.esp(esp_arc)
-# Loading work_esp.seq_mem(seq_mem_arc)
-# Loading work_esp.spi_rom(spi_rom_arc)
-# Loading work_esp.gcm(gcm_arc)
-# Loading work_esp.aes(aes_arc)
-# Loading work_esp.keyexpansion(keyexpansion_arc)
-# Loading work_esp.keygenerate(keygenerate_arc)
-# Loading work_esp.subbytesword(subbytesword_arc)
-# Loading work_esp.subbytesrom(subbytesrom_arc)
-# Loading work_esp.addkey(rtl)
-# Loading work_esp.aesround(aesround_arc)
-# Loading work_esp.subbytes(subbytes_arc)
-# Loading work_esp.shiftrows(shiftrows_arch)
-# Loading work_esp.mixcolumns(rtl)
-# Loading work_esp.mixcalc(rtl)
-# Loading work_esp.bitparallel(bitparallel_arc)
-# Loading work_esp.reg(reg_arc)
-# ** Warning: Design size of 16465 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
-# Expect performance to be adversely affected.
-run 2400 ns
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U1/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U2/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U3/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U4/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U5/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U6/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U7/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U8/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U9/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U1/U10/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U3/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U3/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U4/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U4/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U5/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U5/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U6/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U6/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U7/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U7/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U8/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U8/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U9/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U9/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U10/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U10/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U11/U1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U11/U3
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 1  Instance: /tb_esp/DUT/U/U/U12
-# End time: 11:39:53 on Jun 06,2021, Elapsed time: 0:16:17
-# Errors: 0, Warnings: 31
+#    Time: 5 ns  Iteration: 1  Instance: /tb_counter/DUT/U/U12
+# End time: 14:36:34 on Jun 06,2021, Elapsed time: 0:08:57
+# Errors: 0, Warnings: 33

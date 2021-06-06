@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Jun 06 14:31:24 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : CounterMode
+Top-level Entity Name : CounterMode
+Family : Cyclone 10 LP
+Device : 10CL055YF484C8G
+Timing Models : Final
+Total logic elements : 8,216 / 55,856 ( 15 % )
+    Total combinational functions : 4,625 / 55,856 ( 8 % )
+    Dedicated logic registers : 7,917 / 55,856 ( 14 % )
+Total registers : 7917
+Total pins : 0 / 322 ( 0 % )
+Total virtual pins : 483
+Total memory bits : 418,048 / 2,396,160 ( 17 % )
+Embedded Multiplier 9-bit elements : 0 / 312 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

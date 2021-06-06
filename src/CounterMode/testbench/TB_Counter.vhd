@@ -24,8 +24,8 @@ ARCHITECTURE TB_Counter_arc OF TB_Counter IS
 	SIGNAL clk, fin_val_TB : STD_LOGIC;
 	SIGNAL in_val_TB : STD_LOGIC;
 	SIGNAL input_TB, output_TB : STD_LOGIC_VECTOR(127 DOWNTO 0);
-	SIGNAL key_TB : STD_LOGIC_VECTOR(127 DOWNTO 0) := x"feffe9928665731c6d6a8f9467308308";
-	SIGNAL counter_TB : STD_LOGIC_VECTOR(95 DOWNTO 0) := x"cafebabefacedbaddecaf888";
+	SIGNAL key_TB : STD_LOGIC_VECTOR(127 DOWNTO 0) := x"4c80cdefbb5d10da906ac73c3613a634";
+	SIGNAL counter_TB : STD_LOGIC_VECTOR(95 DOWNTO 0) := x"2e443b684956ed7e3b244cfe";
 	
 BEGIN
 	stimulus : PROCESS
@@ -40,7 +40,7 @@ BEGIN
 
 	reader : PROCESS(clk)
 
-	FILE plains  : TEXT OPEN READ_MODE  IS "../CounterMode/testbench/test_plains.txt";
+	FILE plains  : TEXT OPEN READ_MODE  IS "../CounterMode/testbench/test_case_1.txt";
 	--FILE ciphers : TEXT OPEN WRITE_MODE IS "testbench/test_ciphers.txt";
 	VARIABLE v_ILINE : LINE;
 	--VARIABLE v_OLINE : LINE;
